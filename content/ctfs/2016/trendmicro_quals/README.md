@@ -1,6 +1,6 @@
 ### Misc 100
 
-We were given a [tcpdump capture file](http://www.mediafire.com/download/655bbeygb67s77k/tmctf100.pcap) (a Linux "cooked" capture, `the pseudo-protocol used by libpcap on Linux to capture from the “any” device and to capture on some devices where the native link layer header isn’t available or can’t be used.`)
+We were given a [tcpdump capture file](http://www.mediafire.com/download/655bbeygb67s77k/tmctf100.pcap) (a Linux "cooked" capture, "the pseudo-protocol used by libpcap on Linux to capture from the “any” device and to capture on some devices where the native link layer header isn’t available or can’t be used".)
 
 Using Wireshark to open it. Let see:
 
