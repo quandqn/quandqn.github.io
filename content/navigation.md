@@ -1,4 +1,6 @@
 [gimmick:Theme (inverse: true)](flatly)
+[gimmick:Disqus](qd0an)
+
 # qd0an
 
 [CTF Write-ups]()
