@@ -15,7 +15,7 @@ $$
 \\d _p \equiv d \mod (p -1) \\ d _q \equiv d \mod (q -1) \\ q_{inv} \equiv q^{-1} \mod p
 $$
 
-If we multiple the second equation with exponent $e$, it becomes:
+If we multiply the second equation with exponent $e$, it becomes:
 
 $$
 \\ \varphi(n) = (p-1)(q-1)\\ \iff ed_q \equiv 1 &plus; k(q -1) \mod \varphi(n)
