@@ -102,11 +102,10 @@ Here are the clues:
 Where does everybody live?. Can you solve this riddle ? 
 
 Compute flag as: 
-```
-`CodeWar{`'lemonade'[i0] + 'marlboro'[i1] + 'chersterfields'[i2] + 'tulips'[i3] + 'horses'[i4] + 'greek'[i5] + 'basketball'[i6] + 'cats'[i7] + 'hyacinth'[i8] + 'cheese'[i9] + 'cactuses'[i10] + 'orchids'[i11]`}`
-```
 
-`i0..i11` ```is number of the hourse that have that object
+CodeWar{ + 'lemonade'[i0] + 'marlboro'[i1] + 'chersterfields'[i2] + 'tulips'[i3] + 'horses'[i4] + 'greek'[i5] + 'basketball'[i6] + 'cats'[i7] + 'hyacinth'[i8] + 'cheese'[i9] + 'cactuses'[i10] + 'orchids'[i11] + }
+
+i0..i11 is number of the hourse that have that object.
 ```
 
 Bài này là một bài giải đố thuần tuý, không khó cho lắm, cái khó duy nhất theo mình là tiếng Anh, dễ bị nhầm phương hướng và chỉ dẫn. 
@@ -187,7 +186,8 @@ waht ahs eomc ot eb i wlil vrnee gteerr
 eht srmemoie ew aehv adem i lalhs ernve orgfte 
 ```
 
-```Submit flag as: 
+```
+Submit flag as: 
 ```
 `CodeWar{` what you found here`}`
 
@@ -218,19 +218,19 @@ Cá nhân mình nghĩ đây là một trong những bài ức chế nhất cuộ
 
 Ý tưởng ban đầu nảy ra trong đầu mình là solved cái megaminx này, sau đó thì flag sẽ hiện ra, chắc nằm trên mặt nào đó. Sau khi thảo luận với team khoảng 20 phút, một đồng đội team mình đã quăng cho mình cái hình này và bảo: "em solve rồi anh, giờ anh làm gì làm đi =))"
 
-![](https://quandqn.github.io/images/codewar/solved.png)
+![](https://raw.githubusercontent.com/quandqn/quandqn.github.io/master/images/2017/codewar/solved.png)
 
 Nhìn mãi mà chả ra gì, mình quyết định chơi trò cắt dán thủ công lớp một:
 
-![](https://quandqn.github.io/images/codewar/part1.jpg)
+![](https://raw.githubusercontent.com/quandqn/quandqn.github.io/master/images/2017/codewar/part1.jpg)
 
 Và thành quả là:
 
-![](https://quandqn.github.io/images/codewar/not.jpg)
+![](https://raw.githubusercontent.com/quandqn/quandqn.github.io/master/images/2017/codewar/not.jpg)
 
-![](https://quandqn.github.io/images/codewar/beginner.jpg)
+![](https://raw.githubusercontent.com/quandqn/quandqn.github.io/master/images/2017/codewar/beginner.jpg)
 
-![](https://quandqn.github.io/images/codewar/for.jpg)
+![](https://raw.githubusercontent.com/quandqn/quandqn.github.io/master/images/2017/codewar/for.jpg)
 
 Cầm xoay xoay cái khối "megaminx" đó suốt 3-4 tiếng đồng hồ, ăn hết 2 ổ bánh mì, nghe đồng đội blame điếc tai và cười vào mặt, cuối cùng mình cũng đã được thông não. `CodeWar{NOTFORBEGINNER}`, đúng là not for beginner thật.
 
@@ -261,7 +261,7 @@ Phần `CCCCC` thì cũng dễ, range có 100 user thôi, tìm tool online nào 
 
 Còn lại phần `AAAAAA`, vì chỉ có 6 kí tự, nên cách dễ nhất là bruteforce luôn. Mình thì tìm vài cái tên đường phổ biến ở Hà Nội, cho vào cái dict, chạy vài permutations là xong. Các bạn có thể tham khảo code ở [đây](https://gist.github.com/quandqn/8637460bc9752484d516f994dffa50d8).
 
-![](https://quandqn.github.io/images/codewar/Screen Shot 2017-04-20 at 2.12.35 AM.png)
+![](https://raw.githubusercontent.com/quandqn/quandqn.github.io/master/images/2017/codewar/Screen Shot 2017-04-20 at 2.12.35 AM.png)
 
 ### Shall We Play A Game (250 point)
 
@@ -285,7 +285,7 @@ Nhìn qua thì code đơn giản, không có gì phức tạp, chỉ là in ra m
 
 Replace và in ra trong cùng một biến, ta có được hình như thế này:
 
-![](https://quandqn.github.io/images/codewar/rbrbrb.png)
+![](https://raw.githubusercontent.com/quandqn/quandqn.github.io/master/images/2017/codewar/rbrbrb.png)
 
 Tinh ý thì có thể nhận ra đây là ASCII Art. Chỉnh sửa độ dài độ rộng của các ký tự được in ra, ta có được flag.
 
@@ -305,7 +305,7 @@ Sau khoảng nửa tiếng google thì team nhận ra đây là [ISBN Code](http
 
 Một bạn trong team mình viết một script search theo ISBN code và ghi tên tất cả các tên sách ra cho mình. Sau một hồi ngẫm nghĩ nhìn tới ngó lui thì nhận ra flag có thể được cấu thành từ ký tự đầu tiên (được in hoa) của mỗi tên sách. Rất may là mình đúng.
 
-![](https://quandqn.github.io/images/codewar/Screen Shot 2017-04-20 at 2.30.33 AM.png)
+![](https://raw.githubusercontent.com/quandqn/quandqn.github.io/master/images/2017/codewar/Screen Shot 2017-04-20 at 2.30.33 AM.png)
 
 ### Wall of Text (175 point)
 
@@ -317,7 +317,7 @@ Bài này là một bài steganography đội lốt crypto rất magic, rất vi
 
 Một bạn team mình đã "OCR tay" tất cả các ký tự trong hình ra file text, và thử đủ kiểu encode mà không ra. Mình cũng stuck ở bài này khá lâu. Chả hiểu thế nào lúc đó mình lại nhớ tới một bài trong giải PoliCTF cũng cho file ảnh thế này. Thế là vội vàng chạy đi "hack" máy Windows thằng bạn cùng phòng, mở Paint lên, đổ màu đen vào chỗ màu trắng, sau đó đổ màu đỏ vào chỗ màu đen. Magic làm sao, vi diệu làm sao, thần kỳ làm sao, flag hiện ra trước mắt mình =))))
 
-![](https://quandqn.github.io/images/codewar/magicvl.png)
+![](https://raw.githubusercontent.com/quandqn/quandqn.github.io/master/images/2017/codewar/magicvl.png)
 
 ### 8 is 8 but 8 is not 8 (100 point)
 
@@ -349,7 +349,7 @@ Mình replace các số 8, số 6,... bằng khoảng trắng và in ra. Vẫn t
 
 Thử replace các số có trong dòng thứ 6 thì, ô kìa, cái gì đây, magic vãi.
 
-![](https://quandqn.github.io/images/codewar/Screen Shot 2017-04-20 at 2.46.54 AM.png)
+![](https://raw.githubusercontent.com/quandqn/quandqn.github.io/master/images/2017/codewar/Screen Shot 2017-04-20 at 2.46.54 AM.png)
 
 ### CodeWar.js (70 point)
 
@@ -375,7 +375,7 @@ Upload hình lên và thế là có flag. Một lần nữa mình đã phải th
 
 Cơ mà đời không như là mơ, ngồi xếp mãi mà không ra :'( phải đến khi thằng em quăng cho cái tool thì mới tỉnh ngộ: 
 
-![](https://quandqn.github.io/images/codewar/Screen Shot 2017-04-14 at 1.31.58 PM.png)
+![](https://raw.githubusercontent.com/quandqn/quandqn.github.io/master/images/2017/codewar/Screen Shot 2017-04-14 at 1.31.58 PM.png)
 
 Việc còn lại bây giờ là scramble lại các từ thôi. Cũng như bài trên, có hai cách giải quyết: một, code tìm scramble có nghĩa; hai, google tìm tool online. Mình đã đi tìm được vài từ, đến khi chợt nhận ra các từ có quy luật (thanks to my big idol):
 
@@ -409,7 +409,7 @@ Mà bài này 300 điểm hơi ảo ảo, dễ quá, vào link xoay xoay mấy p
 
 Flag ở mặt dưới nhé, làm biếng xoay lại quá nên lấy đỡ ảnh cũ của thằng em:
 
-![](https://quandqn.github.io/images/codewar/flaggggg.png)
+![](https://raw.githubusercontent.com/quandqn/quandqn.github.io/master/images/2017/codewar/flaggggg.png)
 
 ### Dev's Madness (375 point)
 
@@ -419,9 +419,9 @@ Bài này Git à, chắc lại checkout rồi cat-file này nọ chứ gì :thin
 
 Và đúng là BTC hack được não mình, đời không như là mơ. Tuy nhiên mình cũng có thấy được vài chỗ khả nghi:
 
-![](https://quandqn.github.io/images/codewar/111.png)
+![](https://raw.githubusercontent.com/quandqn/quandqn.github.io/master/images/2017/codewar/111.png)
 
-![](https://quandqn.github.io/images/codewar/112.png)
+![](https://raw.githubusercontent.com/quandqn/quandqn.github.io/master/images/2017/codewar/112.png)
 
 Dấu hiệu của file ảnh PNG xuất hiện quá rõ ràng, IDAT, IEND,... Thế này thì rất có thể là một file ảnh PNG bị cắt ra làm nhiều phần rồi commit lên (or something else). Cơ mà nhiều branch quá, làm sao biết được branch nào mới có hình đúng, hoặc thứ tự branch nào là đúng?
 
@@ -429,7 +429,7 @@ Thôi, đến nước này rồi thì chỉ có bruteforce thần công thôi. V
 
 Và, vâng, sau mấy tiếng đồng hồ chạy nóng muốn cháy máy, rất magic, chúng ta đã có một cái ảnh. Cơ mà vẫn chưa hết ác mộng, chắc do mình sida nên cái hình nó không nguyên vẹn, mà phải đoán flag nữa cơ :'( kiểu nó thế này:
 
-![](https://quandqn.github.io/images/codewar/Screen Shot 2017-04-20 at 3.19.15 AM.png)
+![](https://raw.githubusercontent.com/quandqn/quandqn.github.io/master/images/2017/codewar/Screen Shot 2017-04-20 at 3.19.15 AM.png)
 
 Và, căng mắt ra mà nhìn nào, `CodeWar{one_branch_is_not_enough}`
 
