@@ -133,7 +133,7 @@ i8 != i3
 i9 = [1,2,3,4,5]
 i10 = 4
 i11 = [1,2,3,5,6]
-#flag = "CodeWar{" + 'lemonade'[i0] + 'marlboro'[i1] + 'chersterfields'[i2] + 'tulips'[i3] + 'horses'[i4] + 'greek'[i5] + 'basketball'[i6] + 'cats'[i7] + 'hyacinth'[i8] + 'cheese'[i9] + 'cactuses'[i10] + 'orchids'[i11] + "}"```
+#flag = "CodeWar{" + 'lemonade'[i0] + 'marlboro'[i1] + 'chersterfields'[i2] + 'tulips'[i3] + 'horses'[i4] + 'greek'[i5] + 'basketball'[i6] + 'cats'[i7] + 'hyacinth'[i8] + 'cheese'[i9] + 'cactuses'[i10] + 'orchids'[i11] + "}"
 ```
 
 ```
@@ -291,13 +291,15 @@ Tinh ý thì có thể nhận ra đây là ASCII Art. Chỉnh sửa độ dài �
 
 ### His Best Friend (200 point)
 
-&nbsp;&nbsp;&nbsp;&nbsp;_My friend show me his "best friend", and his "best friend" want to say something wise_
+```
+My friend show me his "best friend", and his "best friend" want to say something wise
 
-&nbsp;&nbsp;&nbsp;&nbsp;_[wise_words](https://codewar.framgia.vn/static/files/wise_words)_
+[wise_words](https://codewar.framgia.vn/static/files/wise_words)
 
-&nbsp;&nbsp;&nbsp;&nbsp;_Can you understand it ?_
+Can you understand it ?
 
-&nbsp;&nbsp;&nbsp;&nbsp;_Submit flag as: `CodeWar{` enter what you found here, all lower case`}`_
+Submit flag as: `CodeWar{` enter what you found here, all lower case`}`
+```
 
 Một loạt dãy số theo hàng dọc, mỗi dãy 13 số. Chắc là mã gì đây.
 
@@ -309,9 +311,10 @@ Một bạn trong team mình viết một script search theo ISBN code và ghi t
 
 ### Wall of Text (175 point)
 
-&nbsp;&nbsp;&nbsp;&nbsp;_There is a hidden message ? (somebody told that :v)_
-
-&nbsp;&nbsp;&nbsp;&nbsp;![](https://codewar.framgia.vn/static/files/wall.png)
+```
+There is a hidden message ? (somebody told that :v)
+```
+![](https://codewar.framgia.vn/static/files/wall.png)
 
 Bài này là một bài steganography đội lốt crypto rất magic, rất vi diệu, rất ba chấm. Tận lúc mình làm ra mình còn không hiểu tại sao lúc đó mình có thể nghĩ được như vậy.
 
@@ -333,9 +336,9 @@ Một bạn team mình đã "OCR tay" tất cả các ký tự trong hình ra fi
 13527194445394444284440301230725137122022394449231617754447732175
 12357387362387721703178191358253127511853302118551977733218312735
 75123741279706666587210706665221375573872265720133055359991735172
-```
 
-&nbsp;&nbsp;&nbsp;&nbsp;_Submit flag as: `CodeWar{` what you found here`}`_
+Submit flag as: `CodeWar{` what you found here`}`
+```
 
 Bài này cũng là một bài cực kỳ hack não của BTC.
 
@@ -353,11 +356,13 @@ Thử replace các số có trong dòng thứ 6 thì, ô kìa, cái gì đây, m
 
 ### CodeWar.js (70 point)
 
-&nbsp;&nbsp;&nbsp;&nbsp;_Sometimes, JS doesn't mean JS at all. [WTF](https://codewar.framgia.vn/static/files/codewar.js) ? But it a hint_
+```
+Sometimes, JS doesn't mean JS at all. [WTF](https://codewar.framgia.vn/static/files/codewar.js) ? But it a hint
 
-&nbsp;&nbsp;&nbsp;&nbsp;_*Hint:* something inside ?_
+*Hint:* something inside ?
 
-&nbsp;&nbsp;&nbsp;&nbsp;_*Hint:* Steganography !_
+*Hint:* Steganography !
+```
 
 Bài này có lẽ là bài gây ức chế nhất cho mình. Đuôi `.js` nhưng thực ra đây là file ảnh PNG, vậy khả năng cao là Steganography tiếp rồi. Thử tất cả các tool steganography mình (và các bạn trong team biết) đều chả cho ra kết quả gì.
 
@@ -367,9 +372,11 @@ Upload hình lên và thế là có flag. Một lần nữa mình đã phải th
 
 ### Tricky-Ricky Reading (200 point)
 
-&nbsp;&nbsp;&nbsp;&nbsp;`4 LNF OXOX1BX1 64C6CX V1 G6VF4F3 VD IGN6 4W8FN161XP, L0XXW6 6GN6 XG6 411NLN3X IN8 OXW6T, NFP 6GN6 4 CN4P DCN6 4F N 1VLFX1, XUNINFXP NFP CFV46VOX88. VFLX 4 L5V6GXP OT DNLX I46G OT GNFP NFP VD5FP OT XGLXU8 IX1X IX6 ; NFP 4 CNLX1CXP 1XPFVI4F3 GIV8X X6N18 6GXT IX1X, NFP GVI 6GXT LNOX 6V BX ; B56 TXBVFP 6G48 46 XX8OXP 4 46VFLXP G6VF4F3. N6 I8W44LG IX WV68WXP 6V 1X86, N8 855NC, DV1 NF GV51 ; NFP NC6X1 4F XG6 PNT 4 XBOXOX11XP UNI4F3 5W, N8 4D D1VO N PXXW O5C8BX1, NFP PF4D4F3 XG6 411NLN3X 5246X D5CC VD 3FX88NWX18. GVI V1 IGXF 6GXT 6VVU G6X41 NCWLX8, NFP VD IGN6 N3X, 8X0, V1 6N684VF 6GXT IX1X, 4 GN9X FV 4PXN. 4 VFCT UFVI 6GN6 6GXT LNOX NFP IXF6 C4UX XG6 NXC9X8 6GN6 VCBIXP WN86 XG6 PF4IVI8, NFP 6GN6, IV1PFXP 4F XG6 XC6GX VD OT 6LND846N884P4VF, 4 WN4P FV 6FX66N4VF VD G6TFN4F3. `
+`4 LNF OXOX1BX1 64C6CX V1 G6VF4F3 VD IGN6 4W8FN161XP, L0XXW6 6GN6 XG6 411NLN3X IN8 OXW6T, NFP 6GN6 4 CN4P DCN6 4F N 1VLFX1, XUNINFXP NFP CFV46VOX88. VFLX 4 L5V6GXP OT DNLX I46G OT GNFP NFP VD5FP OT XGLXU8 IX1X IX6 ; NFP 4 CNLX1CXP 1XPFVI4F3 GIV8X X6N18 6GXT IX1X, NFP GVI 6GXT LNOX 6V BX ; B56 TXBVFP 6G48 46 XX8OXP 4 46VFLXP G6VF4F3. N6 I8W44LG IX WV68WXP 6V 1X86, N8 855NC, DV1 NF GV51 ; NFP NC6X1 4F XG6 PNT 4 XBOXOX11XP UNI4F3 5W, N8 4D D1VO N PXXW O5C8BX1, NFP PF4D4F3 XG6 411NLN3X 5246X D5CC VD 3FX88NWX18. GVI V1 IGXF 6GXT 6VVU G6X41 NCWLX8, NFP VD IGN6 N3X, 8X0, V1 6N684VF 6GXT IX1X, 4 GN9X FV 4PXN. 4 VFCT UFVI 6GN6 6GXT LNOX NFP IXF6 C4UX XG6 NXC9X8 6GN6 VCBIXP WN86 XG6 PF4IVI8, NFP 6GN6, IV1PFXP 4F XG6 XC6GX VD OT 6LND846N884P4VF, 4 WN4P FV 6FX66N4VF VD G6TFN4F3. `
 
-&nbsp;&nbsp;&nbsp;&nbsp;_Submit Flag as: `CodeWar{` SHA1 of decoded text with no punctuation, no space, all upper case `}`_
+```
+Submit Flag as: `CodeWar{` SHA1 of decoded text with no punctuation, no space, all upper case `}`
+```
 
 À, đây rồi, crypto đây rồi, sở trường đây rồi. Nhìn thế này thì khả năng cao là subtitution cipher rồi.
 
@@ -395,13 +402,15 @@ Tới đây rồi thì YOLO thôi!
 
 ### KubEye Challenge (300 point)
 
-&nbsp;&nbsp;&nbsp;&nbsp;_Restore it if you can ?_ 
+```
+Restore it if you can ?
 
-&nbsp;&nbsp;&nbsp;&nbsp;_Challenge Accepted ?_
+Challenge Accepted ?_
 
-&nbsp;&nbsp;&nbsp;&nbsp;_[https://kube-challenge.surge.sh/](https://kube-challenge.surge.sh/)_
+[https://kube-challenge.surge.sh/](https://kube-challenge.surge.sh/)_
 
-&nbsp;&nbsp;&nbsp;&nbsp;_Submit flag as: `CodeWar{` what you found, upper cased and put underscore between words`}`_
+Submit flag as: `CodeWar{` what you found, upper cased and put underscore between words`}`
+```
 
 Èo, BTC thích cho chơi mấy trò xếp hình nhỉ. 
 
