@@ -5,7 +5,7 @@ What is e^(1.000000001)?
 
 PlaidCTF has a series about `X is hard`, where `X` is a math operator.
 
-So, like the past years, we should find some `bug` in operator that made the result `wrong`. And this year `bug` is [logarithms bug](http://www.datamath.org/Story/LogarithmBug.htm).
+So, like the past years, we should find some `bug` in operator that made the result `wrong`. And this year's `bug` is [logarithms bug](http://www.datamath.org/Story/LogarithmBug.htm).
 
 
 ### zipper - Misc (50 pts)
@@ -35,7 +35,7 @@ reversing-hole_c344571f488311a2553d2cbac6fa0d35.exe: MS-DOS executable, MZ for M
 
 Just run it on dosbox give us flag: 
 
-![](https://raw.githubusercontent.com/quandqn/quandqn.github.io/images/2017/plaidctf/Screen Shot 2017-04-24 at 2.16.31 AM.png)
+![](images/2017/plaidctf/Screen%20Shot%202017-04-24%20at%202.16.31%20AM.png)
 
 ### Multicast - Crypto (175 pts)
 
