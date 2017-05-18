@@ -1,7 +1,7 @@
-[gimmick:Theme (inverse: true)](superhero)
-# qd0an's CTF Writeup
+[gimmick:Theme (inverse: true)](flatly)
+# qd0an's CTF Write-ups
 
-[CTF Writeups]()
+[CTF Write-ups]()
 
   * # 2016
   * [0CTF Quals](ctfs/2016/0ctf_quals/README.md)
