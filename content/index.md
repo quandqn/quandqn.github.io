@@ -4,4 +4,6 @@ There are my some CTF write-ups, most of them are about Cryptography.
 
 Quan Doan - members of MeePwn CTF Team - Vietnam.
 
+[gimmick:Disqus](qd0an)
+
 
