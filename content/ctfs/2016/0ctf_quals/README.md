@@ -9,14 +9,14 @@ Instead of trying to retype the private key (or using some OCR tools), I recogni
 
 ![](https://raw.githubusercontent.com/quandqn/quandqn.github.io/master/images/2016/0ctf_quals/screenshot-2016-03-15-at-04-35-42.png)
 
-Based on the format of normal RSA private key, we can recover something from the given key: some LSBs of $q$, $d_p$, $d_q$ and $q_{inv}$
+Based on the format of normal RSA private key, we can recover something from the given key: some LSBs of $$q, d_p, d_q and q_{inv}$$
 
 We have:
 
 $$
 \begin{aligned}
-d _p \equiv d \mod (p -1)
-d _q \equiv d \mod (q -1)
+d_ p \equiv d \mod (p -1)
+d_ q \equiv d \mod (q -1)
 q_{inv} \equiv q^{-1} \mod p
 \end{aligned}
 $$
