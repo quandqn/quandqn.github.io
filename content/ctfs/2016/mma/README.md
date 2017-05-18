@@ -10,12 +10,12 @@ $$ N_2 = (p+2)(q+2)$$
 
 By doing a simple math, we get:
 
-$$\begin{eqnarray} 
-N2 &=& (p+2)(q+2)      \nonumber \\
-&=& pq + 2p + 2q + 4 \nonumber \\
-&=&N1 + 2 (p+q) + 4    \nonumber \\
-\iff (p+q) &= & \frac {N2 - N1 - 4}{2}  
-\end{eqnarray}$$
+
+$$N2 = (p+2)(q+2)$$
+$$N2 = pq + 2p + 2q + 4$$
+$$N2 = N1 + 2 (p+q) + 4$$
+$$\iff (p+q) = \frac {N2 - N1 - 4}{2}$$
+
 
 So, we can get $p$ and $q$ by solving a simple quadratic equation: "find two numbers when know their sum and product."
 
