@@ -111,11 +111,11 @@ More clearly, if the first block has index 1, the mathematical formula for CBC e
 
 Thinking about it… what would happen if we force the server to decrypt a “wrong” ciphertext which can be extracted from the correct ciphertext?
 
-If we divide the ciphertext (_c_) to 3 blocks $c1, c2, c3$, and send $c2 + c2 + c3$ (where `+` is concatenation operation of strings) to the server to decrypt to get the plaintext ($p'$), the server will work as below:
+If we divide the ciphertext ($c$) to 3 blocks $c1, c2, c3$, and send $c2 + c2 + c3$ (where `+` is concatenation operation of strings) to the server to decrypt to get the plaintext ($p'$), the server will work as below:
 
-$$p^{'}1 = &IV \oplus D(c2)$$
-$$p^{'}2 = &c_2 \oplus D(c2)$$
-$$\Rightarrow IV = &p^{'}2 \oplus c2 \oplus p^{'}1)$$
+$$p^{'}1 = IV \oplus D(c2)$$
+$$p^{'}2 = c_2 \oplus D(c2)$$
+$$\Rightarrow IV = p^{'}2 \oplus c2 \oplus p^{'}1)$$
 
 Yeah, really nice! That's all for this challenge.
 
