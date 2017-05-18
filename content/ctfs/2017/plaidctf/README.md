@@ -35,7 +35,7 @@ reversing-hole_c344571f488311a2553d2cbac6fa0d35.exe: MS-DOS executable, MZ for M
 
 Just run it on dosbox give us flag: 
 
-![](images/2017/plaidctf/screen-shot-2017-04-24-at-2.16.31-AM.png)
+![](https://github.com/quandqn/quandqn.github.io/blob/master/images/2017/plaidctf/screen-shot-2017-04-24-at-2.16.31-AM.png)
 
 ### Multicast - Crypto (175 pts)
 
