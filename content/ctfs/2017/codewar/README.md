@@ -1,3 +1,5 @@
+### Intro
+
 Hi all, lâu quá không viết bài gì, tí nữa thì quên mình có cái blog github.
 
 Mình và team mới tham gia cuộc thi Code War 2017 do [Framgia VN](https://www.facebook.com/FramgiaVietnam/) tổ chức. Và mặc dù không đạt thứ hạng như mong muốn, cũng như không có được suất đi Final, nhưng thôi cũng cố viết vài dòng để sau này còn có cái nhớ lại.
