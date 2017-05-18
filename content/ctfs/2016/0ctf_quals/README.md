@@ -29,3 +29,4 @@ When we have $p$ and $q$, now we easily decrypt the flag.
 
 The flag is `0ctf{Keep_ca1m_and_s01ve_the_RSA_Eeeequati0n!!!}`.
 
+[gimmick:Disqus](@qd0an)
