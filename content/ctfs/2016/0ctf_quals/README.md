@@ -18,7 +18,7 @@ $$
 If we multiple the second equation with exponent $e$, it becomes:
 
 $$
-\\ \varphi(n) = (p-1)(q-1)\\ \iff ed_q \equiv 1 &plus; k(q -1) \mod \varphi(n))
+\\ \varphi(n) = (p-1)(q-1)\\ \iff ed_q \equiv 1 &plus; k(q -1) \mod \varphi(n)
 $$
 
 From above equation and assuming that $e = 65537$ (default value), we know value $k(q–1)$. We also know $q$ is prime number, so $q–1$ is an even number. Try to factorize $k(q–1)$ and note that $k < e$, we can recover $q$. Redo that step with $p$ or using the "coefficient" $q_{inv}$, we can recover $p$.
