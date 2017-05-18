@@ -15,7 +15,7 @@ Welcome to Code War 2017 !
 This is flag for this task: `CodeWar{good_luck_and_have_fun}`, a proof that you solved this task. 
 Submit it to score 5 points. That's it. 
 (However, in other task, you have to find :) ) 
-If you got bonus-ed by report system bug, those point will be added to this task._  
+If you got bonus-ed by report system bug, those point will be added to this task.
 Good luck !
 ```
 
