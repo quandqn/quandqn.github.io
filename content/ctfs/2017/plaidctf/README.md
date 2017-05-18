@@ -44,6 +44,7 @@ Just run it on dosbox give us flag:
 Check out this [link](https://www.wikiwand.com/en/Coppersmith%27s_attack#/Generalizations) for more information about Hastad broadcast attack.
 
 Solution [here](https://gist.github.com/quandqn/17ccdfde1dbfdcfe935600789121efc1):
+[gimmick:gist](17ccdfde1dbfdcfe935600789121efc1) 
 
 ```python
 f = open('data.txt').read().strip() 
