@@ -11,24 +11,17 @@ Instead of trying to retype the private key (or using some OCR tools), I recogni
 
 Based on the format of normal RSA private key, we can recover LSBs of below exponents from the given key: 
 
-$$
-\begin{aligned}
-\\ d_ p \equiv d \mod (p -1)
+$d_ p \equiv d \mod (p -1)$
 
-\\ d_ q \equiv d \mod (q -1)
+$d_ q \equiv d \mod (q -1)$
 
-\\ q_{inv} \equiv q^{-1} \mod p
-\end{aligned}
-$$
+$q_{inv} \equiv q^{-1} \mod p$
 
 If we multiply the second equation with exponent $e$, it becomes:
 
-$$
-\begin{aligned}
-\varphi(n) = (p-1)(q-1)
-\\ \iff ed_q \equiv 1 &plus; k(q -1) \mod \varphi(n)
-\end{aligned}
-$$
+$\varphi(n) = (p-1)(q-1)$
+
+$ \iff ed_q \equiv 1 &plus; k(q -1) \mod \varphi(n)$
 
 From above equation and assuming that $e = 65537$ (default value), we know value $k(q–1)$. We also know $q$ is prime number, so $q–1$ is an even number. Try to factorize $k(q–1)$ and note that $k < e$, we can recover $q$. Redo that step with $p$ or using the "coefficient" $q_{inv}$, we can recover $p$.
 
