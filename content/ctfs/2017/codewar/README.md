@@ -104,9 +104,10 @@ Where does everybody live?. Can you solve this riddle ?
 Compute flag as: 
 ```
 `CodeWar{`'lemonade'[i0] + 'marlboro'[i1] + 'chersterfields'[i2] + 'tulips'[i3] + 'horses'[i4] + 'greek'[i5] + 'basketball'[i6] + 'cats'[i7] + 'hyacinth'[i8] + 'cheese'[i9] + 'cactuses'[i10] + 'orchids'[i11]`}`
+```
 
-`i0..i11` 
-```is number of the hourse that have that object```
+`i0..i11` ```is number of the hourse that have that object
+```
 
 Bài này là một bài giải đố thuần tuý, không khó cho lắm, cái khó duy nhất theo mình là tiếng Anh, dễ bị nhầm phương hướng và chỉ dẫn. 
 
@@ -235,26 +236,25 @@ Cầm xoay xoay cái khối "megaminx" đó suốt 3-4 tiếng đồng hồ, ăn
 
 
 ### Let Take A Break (150 point)
+```
+The flag has the format of `CodeWar{AAAAAA_BBBBBBBB_CCCCC}`, where:
 
-&nbsp;&nbsp;&nbsp;&nbsp;_The flag has the format of `CodeWar{AAAAAA_BBBBBBBB_CCCCC}`, where:_
+	`AAAAAA` is the anagram of the name of a street in Hanoi. AAAAAA contains only letters.
 
-&nbsp;&nbsp;&nbsp;&nbsp; + _`AAAAAA` is the anagram of the name of a street in Hanoi. AAAAAA contains only letters._
+	`BBBBBBBB` can be found [here](https://pastebin.com/x87HJjsm) using the regular expression `(3[@](.{8})[å][~])` where:
 
-&nbsp;&nbsp;&nbsp;&nbsp; + _`BBBBBBBB` can be found [here](https://pastebin.com/x87HJjsm) using the regular expression `(3[@](.{8})[å][~])` where:_
-
- &nbsp;&nbsp;&nbsp;&nbsp; - _`@` is the cracked md5 hash `578F7ADED41B684CB09D33CA23A57AB1`,_
+		_`@` is the cracked md5 hash `578F7ADED41B684CB09D33CA23A57AB1`,
   
- &nbsp;&nbsp;&nbsp;&nbsp; - _`å` is the cracked whirlpool hash 
- `0bb51f486a79de40bc1cb61b4dfb4c5af4a4f4f82c30cfeb465677468a05416f8a1a9a2e8a90534542f4d1fea26e1790bde241762f7d3c3e046e70c9ba330cb8`,_
-  
-&nbsp;&nbsp;&nbsp;&nbsp; - _`~` is the cracked SHA1 hash `bbbd558a572a105c718e04894e9ffa8756ef8402`._
+		_`å` is the cracked whirlpool hash `0bb51f486a79de40bc1cb61b4dfb4c5af4a4f4f82c30cfeb465677468a05416f8a1a9a2e8a90534542f4d1fea26e1790bde241762f7d3c3e046e70c9ba330cb8`,
+
+		- `~` is the cracked SHA1 hash `bbbd558a572a105c718e04894e9ffa8756ef8402`.
    
-&nbsp;&nbsp;&nbsp;&nbsp;`@`, _`å` and `~` are animals._
+		`@`, _`å` and `~` are animals.
 
-&nbsp;&nbsp;&nbsp;&nbsp;+ _`CCCCC` is the screenname of a Twitter user with ID `380710??`._
+	+ `CCCCC` is the screenname of a Twitter user with ID `380710??`.
 
-&nbsp;&nbsp;&nbsp;&nbsp;_The SHA256 hash of the whole string `AAAAAA_BBBBBBBB_CCCCC` (all letters are in uppercase) is: `753053aeae0d1a3fe33bd2cb31a901069873b8c37127b0d3757dd3a90313b526`._
-
+The SHA256 hash of the whole string `AAAAAA_BBBBBBBB_CCCCC` (all letters are in uppercase) is: `753053aeae0d1a3fe33bd2cb31a901069873b8c37127b0d3757dd3a90313b526`.
+```
 Bài này lại là một bài khá quen thuộc với các bạn chơi CTF. Nhìn vào thì phần `BBBBBBBB` có thể được giải quyết rất nhanh gọn, ta làm trước. Các hash md5, sha1 và whirpool đó đều có thể được "decrypt" bằng các tool online (thực ra là tra trong db thôi, không decrypt được hàm băm đâu). Đưa các giá trị `@`, `å` và `~` vào vị trí tương ứng trong regex, paste regex lên [đây](http://regexr.com/), paste đoạn văn bản trong pastebin đề cho vào luôn, dễ dàng thấy được chỉ có một đoạn match là `WHATEVER`. 
 
 Phần `CCCCC` thì cũng dễ, range có 100 user thôi, tìm tool online nào đó có thể show được username từ Twitter ID. Không khó khăn lắm khi tìm được kết quả thoả mãn là `UWANT`.
@@ -265,17 +265,21 @@ Còn lại phần `AAAAAA`, vì chỉ có 6 kí tự, nên cách dễ nhất là
 
 ### Shall We Play A Game (250 point)
 
-&nbsp;&nbsp;&nbsp;&nbsp;_Connect and play this game with us:_
+```
+Connect and play this game with us:_
 
-&nbsp;&nbsp;&nbsp;&nbsp;_Command: `nc bullandcow-challenge.framgia.vn 2015`_
+Command: `nc bullandcow-challenge.framgia.vn 2015`
+```
 
 Bài này là một bài lập trình chơi game kinh điển, game được chơi là game [Bulls and Cows](https://en.wikipedia.org/wiki/Bulls_and_Cows). Đọc luật và chơi thử vài game là bạn có thể giải quyết bài này. Trên google cũng có một số code mẫu, các bạn lấy về rồi fix code lại là được :D 
 
 ### Coding is Art (50 point)
 
-&nbsp;&nbsp;&nbsp;&nbsp;_I promise, this task is super easy ;)_
+```
+I promise, this task is super easy ;)_
 
-&nbsp;&nbsp;&nbsp;&nbsp;_[code.rb](https://codewar.framgia.vn/static/files/code.rb)_
+[code.rb](https://codewar.framgia.vn/static/files/code.rb)
+```
 
 Nhìn qua thì code đơn giản, không có gì phức tạp, chỉ là in ra một loạt ký tự `xyztuv`. Có một dòng comment `#x ,y/,z),t|,u_,v(`, có lẽ là ta cần replace từng ký tự `xyztuv` với ký tự tương ứng trong comment này. 
 
