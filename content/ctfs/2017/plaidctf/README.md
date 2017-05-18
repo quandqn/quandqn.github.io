@@ -43,6 +43,50 @@ Just run it on dosbox give us flag:
 
 Check out this [link](https://www.wikiwand.com/en/Coppersmith%27s_attack#/Generalizations) for more information about Hastad broadcast attack.
 
-Solution (cc @3079): 
+Solution [here](https://gist.github.com/quandqn/17ccdfde1dbfdcfe935600789121efc1):
 
-[https://gist.github.com/quandqn/17ccdfde1dbfdcfe935600789121efc1](https://gist.github.com/quandqn/17ccdfde1dbfdcfe935600789121efc1). 
+```python
+f = open('data.txt').read().strip() 
+
+f = f.split('\n')
+f = map(int, f)
+ai = f[0::4]
+bi = f[1::4]
+ci = f[2::4]
+ni = f[3::4]
+
+def mul(ni):
+	res = 1 
+	for n in ni:
+		res *= n
+	return res 
+
+N = mul(ni)
+
+Ti = [[1,0,0,0,0], 
+	[0,1,0,0,0],
+	[0,0,1,0,0], 
+	[0,0,0,1,0], 
+	[0,0,0,0,1]]
+
+P.<x> = PolynomialRing(Zmod(N))
+
+# Find coefficient 
+
+T = [] 
+for t in Ti:
+	tmp = crt(t,ni)
+	T.append(tmp)
+
+f = 0
+for i in range(len(ai)):
+	f += (i+1)*T[i]*( (ai[i]*x + bi[i])^5 - ci[i])
+
+f = f.monic()
+X = var('X')
+
+# The flag is less than 512 bits
+flag = f.small_roots(X=2^512, beta=0.5)
+
+print flag
+```
