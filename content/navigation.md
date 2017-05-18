@@ -16,6 +16,3 @@
 [Links]()
 
   * [MeePwn Team](http://meepwn.team)
-
-[gimmick:Disqus](qd0an)
-
