@@ -1,4 +1,4 @@
-[gimmick:Theme (inverse: true)](flatly)
+[gimmick:Theme (inverse: true)](superhero)
 # qd0an's CTF Writeup
 
 [CTF Writeups]()
